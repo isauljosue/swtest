@@ -1,0 +1,947 @@
+
+@import url(https://fonts.googleapis.com/css?family=Heebo|Prompt&display=swap);
+
+html {
+  overflow-x: hidden;
+  overflow-y: overlay;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 0.166667px;
+  line-height: 1.7em;
+  background-color: #f0f0f0;
+  cursor: default;
+  display: block;
+  margin: 0px;
+}
+
+
+p {
+  font-family: "Heebo", sans-serif;
+  text-align: justify;
+}
+
+a, h1, .h1, h3, .h3, h4, .h4, h5, .h5, h6, .h6, h7, .h7, h8, .h8 {
+  color: #181818;
+
+}
+
+h1, .h1 {
+  font-family: "Prompt", sans-serif;
+  font-size: 28px;
+  line-height: 2px;
+  font-weight: 700;
+}
+
+h2, .h2 {
+  font-family: "Heebo", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 0px;
+}
+
+h3, .h3 {
+  font-family: "Heebo", sans-serif;
+  font-size: 15px;
+  line-height: 0px;
+  font-weight: 500;
+}
+
+h4, .h4 {
+  font-family: "Heebo", sans-serif;
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: 300;
+}
+
+h5, .h5 {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 0px;
+}
+
+h6, .h6 {
+  font-size: 22px;
+  line-height: 0px;
+}
+
+h7, .h7 {
+    font-family: "Prompt", sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 300;
+}
+
+h8, .h8 {
+    font-family: "Prompt", sans-serif;
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 300;
+}
+
+a {
+  font-family: "Heebo", sans-serif;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 0px;
+}
+
+/* --------------------------------------------- */
+
+canvas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0; }
+
+
+.grid {
+  background:url(images/gridoo.png) repeat;
+}
+
+.topsec {
+  margin: auto;
+  width: 76%;
+  height: 10vh;
+}
+
+.topsec360 {
+  margin: auto;
+  width: 76%;
+  height: 9vh;
+}
+
+.midsec {
+  margin: auto;
+  width: 76%;
+  height: 76vh;
+}
+
+.midsecpost {
+  margin: auto;
+  width: 76%;
+  height: 22vh;
+}
+
+.botsec {
+  margin: auto;
+  width: 76%;
+  height: 12vh;
+}
+
+.navbar {
+  position: relative;
+  height: 10vh;
+}
+
+.navbar360 {
+  position: relative;
+  height: 10vh;
+}
+
+.navtext {
+  position: absolute;
+}
+.swnav{
+  color: #000;
+}
+.forright {
+  right: 0px;
+}
+
+.navspacerR {
+  padding-left: 30px;
+}
+
+.navspacerL {
+  padding-right: 30px;
+}
+
+.fortop {
+  bottom: 10px;
+}
+
+.forbot {
+  top:10px;
+}
+
+.navspace {
+  float: right;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  width: 10%;
+  text-align: right;
+}
+
+/* -------------------------------------- */
+.circle {
+	position: absolute;
+  border: solid 1px #f0f0f0;
+	width: 350px;
+	height: 350px;
+  border-radius: 100%;
+}
+
+.over_margins {
+  margin-right: 13%;
+}
+.ptext {
+  font-family: "Heebo", sans-serif;
+  color: #000000;
+  font-weight: 500;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 20px;
+  text-align: center;
+  background: white;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  text-align: left;
+  padding: 15px 15px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  color: #B3B7AF;
+  background-color: #efefef
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+
+
+.scrolly {
+    overflow: hidden;
+    margin-bottom: -10px;
+}
+
+.leftcolumn {
+  float: left;
+  width: 25%;
+}
+
+.rightcolumn-i {
+  float: right;
+  width: 7%;
+}
+
+
+
+.rightcolumn-a {
+  float: left;
+  width: 30%;
+}
+.rightcolumn-ab {
+  float: left;
+  width: 70%;
+}
+
+
+
+/* Right column */
+.rightcolumn {
+  float: right;
+  width: 85%;
+}
+
+.rightcolumnpres {
+  margin:auto;
+  width: 70%;
+}
+
+
+.rightcolumn0 {
+  float: right;
+  width: 85%;
+}
+
+.rightcolumnblog {
+  float: left;
+  width: 50%;
+}
+
+.rightcolumn-dd {
+  float: left;
+  width: 49%;
+}
+
+.leftcolumn-dd {
+  float: right;
+  width: 49%;
+}
+
+
+.gridx {
+  float: right;
+  width: 85%;
+  background: #f8f8f8;
+  background-image: radial-gradient(black 1px, transparent 0);
+  background-size: 44px 44px;
+  background-position: -20px -30px;
+  padding-bottom: 26.5%;
+}
+
+.gridxx {
+  float: right;
+  width: 85%;
+  padding-top: 27px;
+  padding-bottom: 0px;
+}
+
+.gridyy {
+  float: right;
+  width: 100%;
+  padding-top: 27px;
+  padding-bottom: 0px;
+}
+
+.f0center {
+    float: right;
+    width: 71%;
+    padding-bottom: 0px;
+    margin-right: 13%;
+}
+
+.gridxxpres {
+  margin: auto;
+  width: 70%;
+  padding-top: 55px;
+  /*padding-top: 99px;*/
+  padding-bottom: 5px;
+}
+
+.myDiv{
+   background:url(gridoo.png) repeat;
+   height: 700px;
+}
+
+.myDiv_j{
+   background:url(gridoo.png) repeat;
+   height: 656px;
+}
+
+.myDiv_b{
+   background:url(gridoo.png) repeat;
+   height: 180px;
+}
+
+.myDivx{
+  height: 700px;
+  background-image: image(images/soma.png);
+}
+
+.borda {
+  border: 1px solid;
+  border-radius: 35px;
+  border-color: #f0f0f0;
+}
+
+.bordaw {
+  border: 1px solid;
+  border-radius: 35px;
+  border-color: #000;
+}
+
+.backdrop {
+  z-index: 1; position: absolute; top: 0px; left: 0px;
+}
+
+.curtain {
+  z-index: 2; position: absolute; top: 0px; left: 0px;
+}
+
+.sun {
+  z-index: 3; position: absolute; top: 0px; left: 0px;
+}
+
+.navcolumns{
+  width: 12.5%
+  float: left;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+.hovy:link {
+}
+
+/* mouse over link */
+.hovy:hover {
+  color: #B3B7AF;
+}
+
+.hovya:link {
+  color: ff6215;
+}
+
+/* mouse over link */
+.hovya:hover {
+  color: #B3B7AF;
+}
+
+
+.activenav{
+  color: #92968a;
+}
+
+.iglogo {
+  float: right;
+  padding-right: 55px;
+  padding-top: 36px;
+  z-index:100;
+}
+
+.toppadleft {
+  float: left;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  width: 10%;
+}
+
+.toppadleft2 {
+  float: left;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  width: 10%;
+}
+
+.toppadleft3 {
+  float: left;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  width: 15%;
+}
+
+.toppadright2 {
+  float: right;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  width: 7%;
+  text-align: right;
+}
+
+.toppadright {
+  padding-bottom: 10px;
+}
+
+/* Add a card effect for articles */
+.justpad {
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+/* Footer */
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+.marquee {
+  width: 200px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background: #ccc;
+}
+
+.inner {
+    position: relative;
+    left: -97%;
+}
+
+.filterDiv {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.container {
+  margin-top: 0px;
+  overflow: hidden;
+}
+
+ .inage {
+  padding: 15px;
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  transition: 0.2s;
+ }
+ .inage:hover{
+  transform: scale(0.9);
+  transition: 0.2s;
+ }
+
+
+
+/*
+*/
+
+ .inage_c {
+  padding: 15px;
+  width: 140px;
+  height: 140px;
+ }
+ .card {
+  border-radius: 15px;
+  object-fit: cover;
+  transition: 0.2s;
+ }
+ .card:hover{
+  transform: scale(0.9);
+  transition: 0.2s;
+ }
+
+
+ .inage_c0 {
+  padding: 15px;
+  width: 140px;
+  height: 140px;
+ }
+ .card0 {
+  border-radius: 15px;
+  object-fit: cover;
+ }
+
+
+ .inage_c00 {
+  padding: 15px;
+  width: 140px;
+  height: 140px;
+ }
+
+ /*
+ */
+
+
+
+  .bloginage{
+   padding: 5px;
+   width: 100px;
+   height: 100px;
+   transition: 0.2s;
+   object-fit: cover;
+   position: absolute;
+}
+
+  .blogcontainer {
+   height: 200px;
+   object-fit: cover;
+   padding-top: 8px;
+  }
+
+ .blogo{
+  width: 54px;
+  height: 21px;
+  object-fit: cover;
+  float: right;
+  padding-right: 55px;
+  padding-top: 30px;
+ }
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+
+.headerinvi{
+  opacity:0%;
+}
+
+.imgcontainer {
+  position: relative;
+  color: black;
+}
+
+.ingcontainer {
+  position: relative;
+  color: black;
+}
+
+.in-blog-img {
+  float: right;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.lineblog {
+  height:0;
+  margin:0;
+  background:transparent;
+  border-bottom:1px;
+  width: 100%;
+}
+
+.blogtitle-r {
+  float: right;
+}
+
+.blogtitle-r2 {
+  float: left;
+  width: 50%;
+  text-align: right;
+  top: 0;
+}
+
+.blogtitle-r2-dd {
+  float: left;
+  width: 99%;
+  text-align: right;
+  top: 0;
+}
+
+.blogtitle-l {
+  float: left;
+}
+
+.blogtitle-l2 {
+  float: left;
+  width: 30%;
+
+  text-align: bottom-left;
+
+}
+
+.fo {
+  height: 90px;
+}
+
+.fo2 {
+  height: 35px;
+}
+
+.nextpg{
+  font-weight: 600;
+  float: left;
+}
+
+.prevpg{
+  font-weight: 600;
+  float: right;
+}
+
+.ffooter{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+
+/* side 2 side gallery start -------------------------------------*/
+/* side 2 side gallery start -------------------------------------*/
+/* side 2 side gallery start -------------------------------------*/
+/* side 2 side gallery start -------------------------------------*/
+/* side 2 side gallery start -------------------------------------*/
+
+
+.carousel {
+  display: block;
+  position: absolute;
+  width: 55%;
+  height: 450px;
+  min-width: 80.38%;
+  font-size: 0;
+  background: 240, 240, 240, 0.5;
+  -webkit-overflow-scrolling: touch;
+
+}
+.touch .carousel {
+  overflow: auto;
+}
+.carousel:before, .carousel:after {
+  content: '';
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 2;
+  width: 50px;
+  font-size: 20px;
+  font-family: times;
+  color: #000;
+  font-weight: lighter;
+  pointer-events: none;
+  -webkit-transition: 0.1s ease-out;
+  transition: 0.1s ease-out;
+}
+.carousel:before {
+  content: '<';
+  left: 0;
+  text-align: left;
+  margin-left: 14px;
+  text-indent: -20px;
+}
+.carousel:after {
+  content: '>';
+  right: 0;
+  text-align: right;
+  text-indent: 40px;
+}
+.carousel.right:after, .carousel.left:before {
+  opacity: 1;
+}
+.carousel.right:after {
+  right: 0;
+  text-indent: 60px;
+}
+.carousel.left:before {
+  left: 0;
+  text-indent: -40px;
+}
+
+.carousel > a:hover {
+  color: #FFF;
+}
+
+.carousel > a.prev {
+  left: -20px;
+}
+.carousel > a.next {
+  right: -20px;
+}
+
+.carousel:hover > .indicator {
+  opacity: 1;
+  bottom: -10px;
+}
+.carousel > .wrap {
+  overflow: hidden;
+}
+.carousel > .wrap > ul {
+  list-style: none;
+  white-space: nowrap;
+  height: 450px;
+}
+.carousel > .wrap > ul > li {
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: 0.25s ease-out;
+  transition: 0.25s ease-out;
+}
+.carousel > .wrap > ul > li:first-child {
+  margin: -55px;
+}
+.carousel > .wrap > ul > li > img {
+  display: block;
+  height: 100%;
+  margin: auto;
+  vertical-align: bottom;
+  position: relative;
+  z-index: 1;
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
+}
+ /*side to side gallery end -----------------------------------*/
+
+ #some-element {
+   border: 1px solid #000;
+   background-color: #f0f0f0;
+   display: none;
+   padding: 5px;
+   font-family: "Heebo", sans-serif;
+   font-size: 12px;
+   font-weight: 500;
+   position: fixed;
+   z-index: 1;
+ }
+
+ #some-div:hover #some-element {
+   display: block;
+ }
+
+ x-model {
+   animation: 5s spin linear infinite;
+ }
+
+ @keyframes spin {
+   to {
+     transform: rotateY(1turn);
+   }
+ }
+
+
+ .FixedHeightContainer
+{
+  float:right;
+  width:100%;
+}
+
+.FixedWidthContainer
+{
+ float:right;
+ width:100%;
+}
+
+.Contento{
+    height:200px;
+    overflow:auto;
+}
+.Content
+{
+  height:700px;
+  overflow:auto;
+}
+
+/* SCROLL */
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.intextimg {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+
+
+
+.image_full{
+   display:block;
+  }
+
+ .image_mobile{
+  display:none;
+ }
+
+@media (max-width: 5000px) and (min-width: 900px){
+  .image_full{
+   display:none;
+  }
+
+  .image_mobile{
+   display:block;
+  }
+}
+
+
+
+
+.nav_full{
+   display:block;
+  }
+
+ .nav_mobile{
+  display:none;
+ }
+
+@media (max-width: 5000px) and (min-width: 900px){
+  .nav_full{
+   display:none;
+  }
+
+  .nav_mobile{
+   display:block;
+  }
+}
+
+.arrowdown {
+  border: solid #f0f0f0;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 20px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  vertical-align: middle;
+}
+
+
+
+
+
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border-color: white;
+  border-width: 1px;
+  outline: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 15px;
+}
+
+#myBtn:hover {
+  background-color: #c0c0c0;
+}
